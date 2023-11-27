@@ -9,7 +9,7 @@ class MadLibs {
         String verb2 = " ";
         String adjective3 = " ";
         String noun3 = " ";
-        String exclamation = " ";
+        String exclamation = " "; //add a ! to the end
 
         //////////////////////////////
         System.out.println("Welcome to Mad Libs!");
@@ -20,7 +20,7 @@ class MadLibs {
         System.out.println("One day, a " + adjective2 + " " + noun2 + " appeared!");
         System.out.println("The " + noun2 + " challenged our hero to " + verb2 + " " + adjective3 + ".");
         System.out.println("Despite the odds, our " + adjective1 + " " + noun1 + " triumphed and found a hidden " + noun3 + ".");
-        System.out.println("In the end, they exclaimed, "" + exclamation + "!"");
+        System.out.println("In the end, they exclaimed, "+ exclamation);
 
         System.out.println("Thanks for playing Mad Libs!");
     }
