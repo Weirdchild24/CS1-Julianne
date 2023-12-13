@@ -1,6 +1,6 @@
 class rectangles
 {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
 
         double length = 10.0;
